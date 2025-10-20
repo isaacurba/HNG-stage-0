@@ -19,22 +19,6 @@ The profile card displays:
 
 All elements include `data-testid` attributes as required for automated testing.
 
----
-
-## 🖼️ Preview
-
-<img width="462" height="596" alt="image" src="https://github.com/user-attachments/assets/2bb8ce7e-8a29-4794-98a1-374833fd3d5e" />
-(https://i.ibb.co/znDKDDC/profile-avatar.jpg)
-
----
-
-## 🚀 Live Demo
-
-🔗 **Live URL:** [https://your-netlify-site-name.netlify.app](https://your-netlify-site-name.netlify.app)
-
-🔗 **GitHub Repo:** [https://github.com/yourusername/hng-stage0-profile-card](https://github.com/yourusername/hng-stage0-profile-card)
-
----
 
 ## 🛠️ Technologies Used
 
@@ -45,4 +29,21 @@ All elements include `data-testid` attributes as required for automated testing.
 ---
 
 ## 📂 Folder Structure
+
+profile-card/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+
+---
+
+## ⚙️ Setup & Usage
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/yourusername/hng-stage0-profile-card.git
+
 
