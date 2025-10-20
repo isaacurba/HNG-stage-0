@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card - HNG Stage 0</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <article data-testid="test-profile-card" class="profile-card">
+        <figure class="avatar-container">
+          <img
+            src="img.png"
+            alt="Profile photo of Boluwatife Urban Kpomassi"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <header>
+          <h2 data-testid="test-user-name">Boluwatife Urban Kpomassi</h2>
+          <p data-testid="test-user-bio">
+            Frontend Developer passionate about creating elegant, responsive
+            designs and accessible web experiences.
+          </p>
+        </header>
+
+        <p class="time" data-testid="test-user-time" id="user-time"></p>
+
+        <nav data-testid="test-user-social-links" class="social-links">
+          <a
+            href="https://twitter.com/theisaacurban"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-twitter"
+          >
+            Twitter
+          </a>
+          <a
+            href="https://github.com/isaacurba"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-github"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://linkedin.com/in/boluwatife-kpomassi-472b202b7"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-linkedin"
+          >
+            LinkedIn
+          </a>
+        </nav>
+
+        <section data-testid="test-user-hobbies" class="info-section">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Coding</li>
+            <li>UI Design</li>
+            <li>Music</li>
+          </ul>
+        </section>
+
+        <section data-testid="test-user-dislikes" class="info-section">
+          <h3>Dislikes</h3>
+          <ul>
+            <li>Procrastination</li>
+            <li>Messy code</li>
+            <li>Slow Wi-Fi</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
