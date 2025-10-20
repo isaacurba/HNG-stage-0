@@ -23,7 +23,8 @@ All elements include `data-testid` attributes as required for automated testing.
 
 ## 🖼️ Preview
 
-![Profile Card Screenshot](https://i.ibb.co/znDKDDC/profile-avatar.jpg)
+<img width="462" height="596" alt="image" src="https://github.com/user-attachments/assets/2bb8ce7e-8a29-4794-98a1-374833fd3d5e" />
+(https://i.ibb.co/znDKDDC/profile-avatar.jpg)
 
 ---
 
