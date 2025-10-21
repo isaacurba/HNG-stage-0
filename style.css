@@ -216,7 +216,11 @@ header p {
   text-align: center;
 }
 
-/* --- ABOUT PAGE ENHANCEMENTS --- */
+/* --- ABOUT PAGE --- */
+.about-container{
+  width: 50%;
+}
+
 .about-container header {
   text-align: center;
   margin-bottom: 2rem;

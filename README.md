@@ -59,12 +59,3 @@ profile-site/
 ├── style.css # Shared stylesheet
 ├── script.js # Shared JavaScript (validation + clock)
 └── README.md
-
-
----
-
-## ⚙️ Setup & Usage
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/yourusername/hng-profile-site.git
