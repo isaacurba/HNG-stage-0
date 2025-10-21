@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me | HNG Stage 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <h1>Contact Me</h1>
+      <p class="contact-intro">
+        Have a question or collaboration idea? Fill the form below 
+      </p><br>
+
+      <form id="contactForm" novalidate>
+        <!-- Full Name -->
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            data-testid="test-contact-name"
+            aria-describedby="error-name"
+            placeholder="Enter your full name"
+            required
+          />
+          <small
+            class="error-msg"
+            id="error-name"
+            data-testid="test-contact-error-name"
+          ></small>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            data-testid="test-contact-email"
+            aria-describedby="error-email"
+            placeholder="example@email.com"
+            required
+          />
+          <small
+            class="error-msg"
+            id="error-email"
+            data-testid="test-contact-error-email"
+          ></small>
+        </div>
+
+        <!-- Subject -->
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            data-testid="test-contact-subject"
+            aria-describedby="error-subject"
+            placeholder="Message subject"
+            required
+          />
+          <small
+            class="error-msg"
+            id="error-subject"
+            data-testid="test-contact-error-subject"
+          ></small>
+        </div>
+
+        <!-- Message -->
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            rows="4"
+            data-testid="test-contact-message"
+            aria-describedby="error-message"
+            placeholder="Type your message here..."
+            required
+          ></textarea>
+          <small
+            class="error-msg"
+            id="error-message"
+            data-testid="test-contact-error-message"
+          ></small>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="btn" data-testid="test-contact-submit">
+          Send Message
+        </button>
+
+        <!-- Success Message -->
+        <p
+          class="success-msg"
+          id="success-msg"
+          data-testid="test-contact-success"
+          style="display: none"
+        >
+          ✅ Message sent successfully! I’ll get back to you soon.
+        </p>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
